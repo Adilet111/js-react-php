@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: content-box;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 30%;
+}
+.startButton{
+    margin-left:20px;
+}
+.endingMenu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 30%;
+    flex-direction: column;
+}
+.playingArea{
+    width:100vw;
+    height:80vh;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

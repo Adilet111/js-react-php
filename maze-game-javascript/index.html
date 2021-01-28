@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze-Game</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="menu">
+        <select name="gameLevel" id="gameLevelSelect">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <button class="startButton">Start</button>
+    </div>
+    <div class="endingMenu">
+        <h2>Congratualtions!</h2>
+        <p>You are done</p>
+        <p>You Moved 0 steps</p>
+        <button class="hideMenuButton">Cool</button>
+    </div>
+    <div class="playingArea">
+        <canvas id="mazeCanvas"></canvas>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
